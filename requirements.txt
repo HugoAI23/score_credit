@@ -1,0 +1,23 @@
+# Manipulación y cálculo numérico
+numpy
+pandas
+scipy
+
+# Machine Learning y Clustering
+scikit-learn
+yellowbrick
+statsmodels
+xgboost
+lightgbm
+
+# Visualización de datos
+matplotlib
+seaborn
+
+# Utilidades y formatos de datos
+joblib
+openpyxl
+setuptools
+
+# Soporte para Jupyter Notebooks / Kernel
+ipykernel

@@ -21,3 +21,6 @@ setuptools
 
 # Soporte para Jupyter Notebooks / Kernel
 ipykernel
+nbformat
+nbclient
+nbconvert

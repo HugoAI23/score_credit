@@ -1,0 +1,168 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+/* Solo el subconjunto latino (cubre á, é, ñ, ¿, ¡): el build incrusta las fuentes y así pesa mucho menos */
+@import "@fontsource/ibm-plex-sans/latin-400.css";
+@import "@fontsource/ibm-plex-sans/latin-500.css";
+@import "@fontsource/ibm-plex-sans/latin-600.css";
+@import "@fontsource/ibm-plex-mono/latin-500.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+    --font-heading: var(--font-sans);
+    --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+    /* Colores propios del proyecto (utilidades bg-violet-900, text-success, etc.) */
+    --color-violet-900: var(--violet-900);
+    --color-violet-700: var(--violet-700);
+    --color-violet-500: var(--violet-500);
+    --color-violet-100: var(--violet-100);
+    --color-success: var(--success);
+    --color-warning: var(--warning);
+
+    /* Tokens de shadcn/ui */
+    --color-chart-5: var(--chart-5);
+    --color-chart-4: var(--chart-4);
+    --color-chart-3: var(--chart-3);
+    --color-chart-2: var(--chart-2);
+    --color-chart-1: var(--chart-1);
+    --color-ring: var(--ring);
+    --color-input: var(--input);
+    --color-border: var(--border);
+    --color-destructive: var(--destructive);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-accent: var(--accent);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-muted: var(--muted);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-secondary: var(--secondary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-primary: var(--primary);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-popover: var(--popover);
+    --color-card-foreground: var(--card-foreground);
+    --color-card: var(--card);
+    --color-foreground: var(--foreground);
+    --color-background: var(--background);
+    --radius-sm: calc(var(--radius) * 0.6);
+    --radius-md: calc(var(--radius) * 0.8);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) * 1.4);
+
+    /* Tokens de bklit UI con prefijo corregido */
+    --color-chart-scale-pattern-color: var(--chart-scale-pattern-color);
+    --color-chart-scale-05: var(--chart-scale-05);
+    --color-chart-scale-04: var(--chart-scale-04);
+    --color-chart-scale-03: var(--chart-scale-03);
+    --color-chart-scale-02: var(--chart-scale-02);
+    --color-chart-scale-01: var(--chart-scale-01);
+    --color-chart-label: var(--chart-label);
+    --color-chart-marker-foreground: var(--chart-marker-foreground);
+    --color-chart-marker-border: var(--chart-marker-border);
+    --color-chart-marker-background: var(--chart-marker-background);
+    --color-chart-tooltip-muted: var(--chart-tooltip-muted);
+    --color-chart-tooltip-foreground: var(--chart-tooltip-foreground);
+    --color-chart-tooltip-background: var(--chart-tooltip-background);
+    --color-chart-grid: var(--chart-grid);
+    --color-chart-crosshair: var(--chart-crosshair);
+    --color-chart-foreground-muted: var(--chart-foreground-muted);
+    --color-chart-foreground: var(--chart-foreground);
+    --color-chart-background: var(--chart-background);
+    --color-legend-track: var(--legend-track);
+    --color-legend-muted-foreground: var(--legend-muted-foreground);
+    --color-legend-muted: var(--legend-muted);
+    --color-legend-foreground: var(--legend-foreground);
+    --color-legend: var(--legend);
+}
+
+/* Paleta: banca, morado sobrio. Una sola apariencia clara (sin modo oscuro en esta prueba). */
+:root {
+    --violet-900: #2A1250;
+    --violet-700: #4A1F8C;
+    --violet-500: #6D3FC4;
+    --violet-100: #EEE8FA;
+    --success: #1F7A5A;
+    --warning: #9A6700;
+
+    --background: #FBFAFD;
+    --foreground: #1D1030;
+    --card: #FFFFFF;
+    --card-foreground: #1D1030;
+    --popover: #FFFFFF;
+    --popover-foreground: #1D1030;
+    --primary: #4A1F8C;
+    --primary-foreground: #FFFFFF;
+    --secondary: #EEE8FA;
+    --secondary-foreground: #2A1250;
+    --muted: #F4F1F9;
+    --muted-foreground: #6B6280;
+    --accent: #EEE8FA;
+    --accent-foreground: #2A1250;
+    --destructive: #B42318;
+    --border: #E3DDEE;
+    --input: #D6CEE6;
+    --ring: #6D3FC4;
+    --radius: 0.5rem;
+
+    /* Series por defecto de las gráficas */
+    --chart-1: #4A1F8C;
+    --chart-2: #1B7F79;
+    --chart-3: #B7791F;
+    --chart-4: #B4475F;
+    --chart-5: #4A5A73;
+
+    /* bklit UI */
+    --chart-background: #FFFFFF;
+    --chart-foreground: #1D1030;
+    --chart-foreground-muted: #6B6280;
+    --chart-line-primary: var(--chart-1);
+    --chart-line-secondary: var(--chart-2);
+    --chart-crosshair: #6D3FC4;
+    --chart-grid: #ECE7F3;
+    --chart-brush-border: var(--chart-grid);
+    --chart-tooltip-background: rgb(42 18 80 / 0.94);
+    --chart-tooltip-foreground: #FFFFFF;
+    --chart-tooltip-muted: #CBBFE3;
+    --chart-marker-background: #F4F1F9;
+    --chart-marker-border: #D6CEE6;
+    --chart-marker-foreground: #2A1250;
+    --chart-label: #6B6280;
+    --chart-scale-01: #F6F2FC;
+    --chart-scale-02: #E4D9F5;
+    --chart-scale-03: #C6B1EA;
+    --chart-scale-04: #9B7AD6;
+    --chart-scale-05: #6D3FC4;
+    --chart-scale-pattern-color: #F4F1F9;
+    --legend: #FFFFFF;
+    --legend-foreground: #1D1030;
+    --legend-muted: #F4F1F9;
+    --legend-muted-foreground: #6B6280;
+    --legend-track: #E3DDEE;
+}
+
+@layer base {
+    * {
+        @apply border-border outline-ring/50;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+    html {
+        @apply font-sans;
+    }
+    :focus-visible {
+        outline: 2px solid var(--violet-500);
+        outline-offset: 2px;
+    }
+}
+
+/* Movimiento reducido: se desactivan transiciones y animaciones CSS */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

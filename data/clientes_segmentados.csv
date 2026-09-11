@@ -1,0 +1,201 @@
+customer_id,gender,age,annual_income_k,spending_score,segment_id,segment_name
+0001,Male,19,15,39,1,Emergente
+0002,Male,21,15,81,1,Emergente
+0003,Female,20,16,6,0,Básico
+0004,Female,23,16,77,1,Emergente
+0005,Female,31,17,40,1,Emergente
+0006,Female,22,17,76,1,Emergente
+0007,Female,35,18,6,0,Básico
+0008,Female,23,18,94,1,Emergente
+0009,Male,64,19,3,0,Básico
+0010,Female,30,19,72,1,Emergente
+0011,Male,67,19,14,0,Básico
+0012,Female,35,19,99,1,Emergente
+0013,Female,58,20,15,0,Básico
+0014,Female,24,20,77,1,Emergente
+0015,Male,37,20,13,0,Básico
+0016,Male,22,20,79,1,Emergente
+0017,Female,35,21,35,0,Básico
+0018,Male,20,21,66,1,Emergente
+0019,Male,52,23,29,0,Básico
+0020,Female,35,23,98,1,Emergente
+0021,Male,35,24,35,0,Básico
+0022,Male,25,24,73,1,Emergente
+0023,Female,46,25,5,0,Básico
+0024,Male,31,25,73,1,Emergente
+0025,Female,54,28,14,0,Básico
+0026,Male,29,28,82,1,Emergente
+0027,Female,45,28,32,0,Básico
+0028,Male,35,28,61,1,Emergente
+0029,Female,40,29,31,0,Básico
+0030,Female,23,29,87,1,Emergente
+0031,Male,60,30,4,0,Básico
+0032,Female,21,30,73,1,Emergente
+0033,Male,53,33,4,0,Básico
+0034,Male,18,33,92,1,Emergente
+0035,Female,49,33,14,0,Básico
+0036,Female,21,33,81,1,Emergente
+0037,Female,42,34,17,0,Básico
+0038,Female,30,34,73,1,Emergente
+0039,Female,36,37,26,0,Básico
+0040,Female,20,37,75,1,Emergente
+0041,Female,65,38,35,4,Estable
+0042,Male,24,38,92,1,Emergente
+0043,Male,48,39,36,0,Básico
+0044,Female,31,39,61,1,Emergente
+0045,Female,49,39,28,0,Básico
+0046,Female,24,39,65,1,Emergente
+0047,Female,50,40,55,4,Estable
+0048,Female,27,40,47,1,Emergente
+0049,Female,29,40,42,1,Emergente
+0050,Female,31,40,42,1,Emergente
+0051,Female,49,42,52,4,Estable
+0052,Male,33,42,60,1,Emergente
+0053,Female,31,43,54,1,Emergente
+0054,Male,59,43,60,4,Estable
+0055,Female,50,43,45,4,Estable
+0056,Male,47,43,41,4,Estable
+0057,Female,51,44,50,4,Estable
+0058,Male,69,44,46,4,Estable
+0059,Female,27,46,51,1,Emergente
+0060,Male,53,46,46,4,Estable
+0061,Male,70,46,56,4,Estable
+0062,Male,19,46,55,1,Emergente
+0063,Female,67,47,52,4,Estable
+0064,Female,54,47,59,4,Estable
+0065,Male,63,48,51,4,Estable
+0066,Male,18,48,59,1,Emergente
+0067,Female,43,48,50,4,Estable
+0068,Female,68,48,48,4,Estable
+0069,Male,19,48,59,1,Emergente
+0070,Female,32,48,47,1,Emergente
+0071,Male,70,49,55,4,Estable
+0072,Female,47,49,42,4,Estable
+0073,Female,60,50,49,4,Estable
+0074,Female,60,50,56,4,Estable
+0075,Male,59,54,47,4,Estable
+0076,Male,26,54,54,1,Emergente
+0077,Female,45,54,53,4,Estable
+0078,Male,40,54,48,4,Estable
+0079,Female,23,54,52,1,Emergente
+0080,Female,49,54,42,4,Estable
+0081,Male,57,54,51,4,Estable
+0082,Male,38,54,55,1,Emergente
+0083,Male,67,54,41,4,Estable
+0084,Female,46,54,44,4,Estable
+0085,Female,21,54,57,1,Emergente
+0086,Male,48,54,46,4,Estable
+0087,Female,55,57,58,4,Estable
+0088,Female,22,57,55,1,Emergente
+0089,Female,34,58,60,1,Emergente
+0090,Female,50,58,46,4,Estable
+0091,Female,68,59,55,4,Estable
+0092,Male,18,59,41,1,Emergente
+0093,Male,48,60,49,4,Estable
+0094,Female,40,60,40,4,Estable
+0095,Female,32,60,42,1,Emergente
+0096,Male,24,60,52,1,Emergente
+0097,Female,47,60,47,4,Estable
+0098,Female,27,60,50,1,Emergente
+0099,Male,48,61,42,4,Estable
+0100,Male,20,61,49,1,Emergente
+0101,Female,23,62,41,1,Emergente
+0102,Female,49,62,48,4,Estable
+0103,Male,67,62,59,4,Estable
+0104,Male,26,62,55,1,Emergente
+0105,Male,49,62,56,4,Estable
+0106,Female,21,62,42,1,Emergente
+0107,Female,66,63,50,4,Estable
+0108,Male,54,63,46,4,Estable
+0109,Male,68,63,43,4,Estable
+0110,Male,66,63,48,4,Estable
+0111,Male,65,63,52,4,Estable
+0112,Female,19,63,54,1,Emergente
+0113,Female,38,64,42,3,Ahorrador patrimonial
+0114,Male,19,64,46,1,Emergente
+0115,Female,18,65,48,1,Emergente
+0116,Female,19,65,50,1,Emergente
+0117,Female,63,65,43,4,Estable
+0118,Female,49,65,59,4,Estable
+0119,Female,51,67,43,4,Estable
+0120,Female,50,67,57,4,Estable
+0121,Male,27,67,56,1,Emergente
+0122,Female,38,67,40,3,Ahorrador patrimonial
+0123,Female,40,69,58,2,Premium
+0124,Male,39,69,91,2,Premium
+0125,Female,23,70,29,3,Ahorrador patrimonial
+0126,Female,31,70,77,2,Premium
+0127,Male,43,71,35,3,Ahorrador patrimonial
+0128,Male,40,71,95,2,Premium
+0129,Male,59,71,11,3,Ahorrador patrimonial
+0130,Male,38,71,75,2,Premium
+0131,Male,47,71,9,3,Ahorrador patrimonial
+0132,Male,39,71,75,2,Premium
+0133,Female,25,72,34,3,Ahorrador patrimonial
+0134,Female,31,72,71,2,Premium
+0135,Male,20,73,5,3,Ahorrador patrimonial
+0136,Female,29,73,88,2,Premium
+0137,Female,44,73,7,3,Ahorrador patrimonial
+0138,Male,32,73,73,2,Premium
+0139,Male,19,74,10,3,Ahorrador patrimonial
+0140,Female,35,74,72,2,Premium
+0141,Female,57,75,5,3,Ahorrador patrimonial
+0142,Male,32,75,93,2,Premium
+0143,Female,28,76,40,3,Ahorrador patrimonial
+0144,Female,32,76,87,2,Premium
+0145,Male,25,77,12,3,Ahorrador patrimonial
+0146,Male,28,77,97,2,Premium
+0147,Male,48,77,36,3,Ahorrador patrimonial
+0148,Female,32,77,74,2,Premium
+0149,Female,34,78,22,3,Ahorrador patrimonial
+0150,Male,34,78,90,2,Premium
+0151,Male,43,78,17,3,Ahorrador patrimonial
+0152,Male,39,78,88,2,Premium
+0153,Female,44,78,20,3,Ahorrador patrimonial
+0154,Female,38,78,76,2,Premium
+0155,Female,47,78,16,3,Ahorrador patrimonial
+0156,Female,27,78,89,2,Premium
+0157,Male,37,78,1,3,Ahorrador patrimonial
+0158,Female,30,78,78,2,Premium
+0159,Male,34,78,1,3,Ahorrador patrimonial
+0160,Female,30,78,73,2,Premium
+0161,Female,56,79,35,4,Estable
+0162,Female,29,79,83,2,Premium
+0163,Male,19,81,5,3,Ahorrador patrimonial
+0164,Female,31,81,93,2,Premium
+0165,Male,50,85,26,3,Ahorrador patrimonial
+0166,Female,36,85,75,2,Premium
+0167,Male,42,86,20,3,Ahorrador patrimonial
+0168,Female,33,86,95,2,Premium
+0169,Female,36,87,27,3,Ahorrador patrimonial
+0170,Male,32,87,63,2,Premium
+0171,Male,40,87,13,3,Ahorrador patrimonial
+0172,Male,28,87,75,2,Premium
+0173,Male,36,87,10,3,Ahorrador patrimonial
+0174,Male,36,87,92,2,Premium
+0175,Female,52,88,13,3,Ahorrador patrimonial
+0176,Female,30,88,86,2,Premium
+0177,Male,58,88,15,3,Ahorrador patrimonial
+0178,Male,27,88,69,2,Premium
+0179,Male,59,93,14,3,Ahorrador patrimonial
+0180,Male,35,93,90,2,Premium
+0181,Female,37,97,32,3,Ahorrador patrimonial
+0182,Female,32,97,86,2,Premium
+0183,Male,46,98,15,3,Ahorrador patrimonial
+0184,Female,29,98,88,2,Premium
+0185,Female,41,99,39,3,Ahorrador patrimonial
+0186,Male,30,99,97,2,Premium
+0187,Female,54,101,24,3,Ahorrador patrimonial
+0188,Male,28,101,68,2,Premium
+0189,Female,41,103,17,3,Ahorrador patrimonial
+0190,Female,36,103,85,2,Premium
+0191,Female,34,103,23,3,Ahorrador patrimonial
+0192,Female,32,103,69,2,Premium
+0193,Male,33,113,8,3,Ahorrador patrimonial
+0194,Female,38,113,91,2,Premium
+0195,Female,47,120,16,3,Ahorrador patrimonial
+0196,Female,35,120,79,2,Premium
+0197,Female,45,126,28,3,Ahorrador patrimonial
+0198,Male,32,126,74,2,Premium
+0199,Male,32,137,18,3,Ahorrador patrimonial
+0200,Male,30,137,83,2,Premium

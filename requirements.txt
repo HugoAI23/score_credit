@@ -14,6 +14,10 @@ lightgbm
 matplotlib
 seaborn
 
+# API REST y servidor de producción
+flask
+gunicorn
+
 # Utilidades y formatos de datos
 joblib
 openpyxl

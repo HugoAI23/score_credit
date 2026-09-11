@@ -48,3 +48,4 @@ _ Cuando yo haga mi LLM quiero entender como construirlo, no repetir lo que vi e
 - Si vas a modificar un archivo creado debes preguntarme siempre y colocar un enucnciado "PERMISO PARA MODIFICAR ARCHIVO CREADO".
 - Los csv que se generen van en la carpeta data.
 - El código debe ir en la carpeta raíz del archivo.
+- Tu no puedes hacer commits, yo los hago.

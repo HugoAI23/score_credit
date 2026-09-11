@@ -1,0 +1,306 @@
+{
+  "model_version": "1.0.0",
+  "trained_at": "2026-09-10T23:05:38+00:00",
+  "algorithm": "KMeans (k-means++, n_init=10) + StandardScaler",
+  "sklearn_version": "1.9.0",
+  "k": 5,
+  "features": [
+    "age",
+    "annual_income_k",
+    "spending_score"
+  ],
+  "n_training_samples": 200,
+  "metrics": {
+    "inertia": 168.2476,
+    "silhouette": 0.4166
+  },
+  "training_ranges": {
+    "age": {
+      "min": 18.0,
+      "max": 70.0,
+      "mean": 38.85,
+      "std": 13.93
+    },
+    "annual_income_k": {
+      "min": 15.0,
+      "max": 137.0,
+      "mean": 60.56,
+      "std": 26.2
+    },
+    "spending_score": {
+      "min": 1.0,
+      "max": 99.0,
+      "mean": 50.2,
+      "std": 25.76
+    }
+  },
+  "segments": [
+    {
+      "id": 0,
+      "name": "Básico",
+      "base_name": "Básico",
+      "description": "Ingreso bajo y gasto bajo. Necesidades financieras esenciales.",
+      "suggested_actions": [
+        "Cuenta sin comisiones",
+        "Microcrédito",
+        "Educación financiera"
+      ],
+      "customers": 20,
+      "share_pct": 10.0,
+      "centroid": {
+        "age": 46.25,
+        "annual_income_k": 26.75,
+        "spending_score": 18.35
+      },
+      "means": {
+        "age": 46.25,
+        "annual_income_k": 26.75,
+        "spending_score": 18.35
+      },
+      "ranges": {
+        "age": {
+          "min": 20.0,
+          "max": 67.0
+        },
+        "annual_income_k": {
+          "min": 16.0,
+          "max": 39.0
+        },
+        "spending_score": {
+          "min": 3.0,
+          "max": 36.0
+        }
+      },
+      "female_pct": 60.0
+    },
+    {
+      "id": 1,
+      "name": "Emergente",
+      "base_name": "Emergente",
+      "description": "Ingreso bajo con gasto moderado. Perfil en crecimiento.",
+      "suggested_actions": [
+        "Tarjeta de crédito básica",
+        "Educación financiera",
+        "Ahorro automático"
+      ],
+      "customers": 54,
+      "share_pct": 27.0,
+      "centroid": {
+        "age": 25.19,
+        "annual_income_k": 41.09,
+        "spending_score": 62.24
+      },
+      "means": {
+        "age": 25.19,
+        "annual_income_k": 41.09,
+        "spending_score": 62.24
+      },
+      "ranges": {
+        "age": {
+          "min": 18.0,
+          "max": 38.0
+        },
+        "annual_income_k": {
+          "min": 15.0,
+          "max": 67.0
+        },
+        "spending_score": {
+          "min": 39.0,
+          "max": 99.0
+        }
+      },
+      "female_pct": 59.3
+    },
+    {
+      "id": 2,
+      "name": "Premium",
+      "base_name": "Premium",
+      "description": "Ingreso alto y gasto alto. Clientes de mayor valor para el banco.",
+      "suggested_actions": [
+        "Tarjeta de crédito platino",
+        "Programa de recompensas",
+        "Asesor personal"
+      ],
+      "customers": 40,
+      "share_pct": 20.0,
+      "centroid": {
+        "age": 32.88,
+        "annual_income_k": 86.1,
+        "spending_score": 81.53
+      },
+      "means": {
+        "age": 32.88,
+        "annual_income_k": 86.1,
+        "spending_score": 81.53
+      },
+      "ranges": {
+        "age": {
+          "min": 27.0,
+          "max": 40.0
+        },
+        "annual_income_k": {
+          "min": 69.0,
+          "max": 137.0
+        },
+        "spending_score": {
+          "min": 58.0,
+          "max": 97.0
+        }
+      },
+      "female_pct": 55.0
+    },
+    {
+      "id": 3,
+      "name": "Ahorrador patrimonial",
+      "base_name": "Ahorrador patrimonial",
+      "description": "Ingreso alto pero gasto bajo. Capacidad de ahorro e inversión.",
+      "suggested_actions": [
+        "Fondos de inversión",
+        "Depósitos a plazo",
+        "Planes de retiro"
+      ],
+      "customers": 39,
+      "share_pct": 19.5,
+      "centroid": {
+        "age": 39.87,
+        "annual_income_k": 86.1,
+        "spending_score": 19.36
+      },
+      "means": {
+        "age": 39.87,
+        "annual_income_k": 86.1,
+        "spending_score": 19.36
+      },
+      "ranges": {
+        "age": {
+          "min": 19.0,
+          "max": 59.0
+        },
+        "annual_income_k": {
+          "min": 64.0,
+          "max": 137.0
+        },
+        "spending_score": {
+          "min": 1.0,
+          "max": 42.0
+        }
+      },
+      "female_pct": 48.7
+    },
+    {
+      "id": 4,
+      "name": "Estable",
+      "base_name": "Estable",
+      "description": "Ingreso y gasto medios. El perfil más representativo de la cartera.",
+      "suggested_actions": [
+        "Crédito automotriz",
+        "Cuenta de nómina",
+        "Ahorro programado"
+      ],
+      "customers": 47,
+      "share_pct": 23.5,
+      "centroid": {
+        "age": 55.64,
+        "annual_income_k": 54.38,
+        "spending_score": 48.85
+      },
+      "means": {
+        "age": 55.64,
+        "annual_income_k": 54.38,
+        "spending_score": 48.85
+      },
+      "ranges": {
+        "age": {
+          "min": 40.0,
+          "max": 70.0
+        },
+        "annual_income_k": {
+          "min": 38.0,
+          "max": 79.0
+        },
+        "spending_score": {
+          "min": 35.0,
+          "max": 60.0
+        }
+      },
+      "female_pct": 57.4
+    }
+  ],
+  "elbow": [
+    {
+      "k": 1,
+      "inertia": 600.0,
+      "silhouette": null
+    },
+    {
+      "k": 2,
+      "inertia": 389.3862,
+      "silhouette": 0.3355
+    },
+    {
+      "k": 3,
+      "inertia": 295.2122,
+      "silhouette": 0.3578
+    },
+    {
+      "k": 4,
+      "inertia": 205.2251,
+      "silhouette": 0.404
+    },
+    {
+      "k": 5,
+      "inertia": 168.2476,
+      "silhouette": 0.4166
+    },
+    {
+      "k": 6,
+      "inertia": 133.8684,
+      "silhouette": 0.4284
+    },
+    {
+      "k": 7,
+      "inertia": 117.0116,
+      "silhouette": 0.4172
+    },
+    {
+      "k": 8,
+      "inertia": 103.8733,
+      "silhouette": 0.4082
+    },
+    {
+      "k": 9,
+      "inertia": 93.0929,
+      "silhouette": 0.4177
+    },
+    {
+      "k": 10,
+      "inertia": 82.3852,
+      "silhouette": 0.4066
+    },
+    {
+      "k": 11,
+      "inertia": 72.6258,
+      "silhouette": 0.4086
+    },
+    {
+      "k": 12,
+      "inertia": 67.1533,
+      "silhouette": 0.3928
+    },
+    {
+      "k": 13,
+      "inertia": 62.9502,
+      "silhouette": 0.3856
+    },
+    {
+      "k": 14,
+      "inertia": 58.7963,
+      "silhouette": 0.3866
+    },
+    {
+      "k": 15,
+      "inertia": 55.5449,
+      "silhouette": 0.3657
+    }
+  ]
+}
